@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Выбор цвета автомобиля</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+
+    <link href="https://fonts.googleapis.com/css?family=Jost:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic" rel="stylesheet" />
+</head>
+<body>
+
+
+    <header class="header">
+        <h1 class="title">Tesla Model X</h1>
+        <div class="header__img-wrapper">
+            <img class="header__img" src="./img/black-tesla-x.jfif" alt="photo car">
+        </div>
+    </header>
+
+    <section class="options">
+        <div class="container">
+            <div class="options__inner">
+
+                <div class="option-model option">
+                    <p class="option__name">Модель автомобиля</p>
+                    <div class="option-model__buttons option__buttons">
+                        <button class="option-model__button option-model__button--active" data-option-model="tesla-x" data-name-model="Tesla Model X">Model X</button>
+                        <button class="option-model__button" data-option-model="tesla-y" data-name-model="Tesla Model Y">Model Y</button>
+                        <button class="option-model__button" data-option-model="tesla-s" data-name-model="Tesla Model S">Model S</button>
+                        <button class="option-model__button" data-option-model="tesla-3" data-name-model="Tesla Model 3">Model 3</button>
+                    </div>
+                </div>
+
+                <div class="option-color option">
+                    <p class="option__name">Цвет автомобиля</p>
+                    <div class="option-color__buttons option__buttons">
+                        <button class="option-color__button option-color__button--active" data-option-color="black"></button>
+                        <button class="option-color__button" data-option-color="white"></button>
+                        <button class="option-color__button" data-option-color="red"></button>
+                        <button class="option-color__button" data-option-color="gray"></button>
+                        <button class="option-color__button" data-option-color="blue"></button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+
+    
+    <script src="./js/index.js"></script>
+</body>
+</html>
