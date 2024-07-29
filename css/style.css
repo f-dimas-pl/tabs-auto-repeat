@@ -124,8 +124,8 @@ body {
 }
 
 .option-color__button--active {
-    outline: 4px solid #727272;
-    outline-offset: 4px;
+    border-radius: 10px;
+    rotate: 45deg;
 }
 
 
